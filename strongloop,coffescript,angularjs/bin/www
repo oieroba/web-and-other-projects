@@ -1,0 +1,9 @@
+var express = require('express');
+var app = express();
+
+app.set('port', process.env.PORT || 1337 );
+app.use(express.static('www'));
+
+var server = app.listen(app.get('port'), function() {
+  return console.log("Listening on port: " + server.address().port);
+});

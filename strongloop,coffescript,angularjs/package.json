@@ -1,0 +1,38 @@
+{
+  "name": "radiant9-client",
+  "version": "1.0.0",
+  "description": "web client for radiant9.com",
+  "license": "UNLICENSED",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/username/repository.git"
+  },
+  "private": true,
+  "scripts": {
+      "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "debug": "^2.2.0",
+    "express": "^4.13.4",
+    "gulp": "^3.9.0",
+    "gulp-coffee": "^2.3.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-haml": "^0.1.6",
+    "gulp-minify-css": "^1.2.3",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.1.1",
+    "gulp-util": "^3.0.7",
+    "wiredep": "^3.0.0"
+  },
+  "devDependencies": {
+    "bower": "^1.3.3",
+    "gulp-loopback-sdk-angular": "^0.1.4",
+    "jasmine-core": "^2.3.4",
+    "karma": "^0.12.37",
+    "karma-chrome-launcher": "^0.2.0",
+    "karma-jasmine": "^0.3.6",
+    "karma-phantomjs-launcher": "^0.2.0",
+    "phantomjs": "^1.9.17",
+    "shelljs": "^0.3.0"
+  }
+}

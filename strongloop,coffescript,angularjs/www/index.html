@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
+    <title>Radiant9</title>
+    <!-- bower:js -->
+    <script src="lib/jquery/dist/jquery.js"></script>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-messages/angular-messages.js"></script>
+    <script src="lib/angular-debounce/dist/angular-debounce.js"></script>
+    <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="lib/lodash/lodash.js"></script>
+    <script src="lib/ng-lodash/build/ng-lodash.js"></script>
+    <script src="lib/angular-ui-router/release/angular-ui-router.js"></script>
+    <script src="lib/angular-resource/angular-resource.js"></script>
+    <script src="lib/bootstrap-css/js/bootstrap.min.js"></script>
+    <!-- endbower -->
+
+    <script src="js/application.js"></script>
+    <script src="js/loopback-services.js"></script>
+
+  <body ng-app="radiance">
+
+
+    <nav class="navbar navbar-radiant navbar-inverse navbar-fixed-top">
+      <div class="container">
+
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">
+            <img src="/images/logo.png" />
+          </a>
+        </div>
+
+        <div id="navbar" class="collapse navbar-collapse">
+
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">About</a></li>
+            <li><a href="#">Community</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">Events</a></li>
+            <li><a href="#">Blog</a></li>
+            <li class="nav-btn-wrapper"><button class="btn btn-primary btn-block navbar-btn" ui-sref="sign-in">Sign In</button></li>
+          </ul>
+
+        </div>
+
+
+      </div>
+    </nav>
+
+    <!-- UI Insertion Point -->
+    <div ui-view>
+
+    </div>
+
+    <div class="container">
+      <hr>
+      <footer>
+        <div class="row">
+          <div class="col-lg-6">
+            <p> &copy; 2016 Radiant9, LLC.</p>
+          </div>
+          <div class="col-lg-6">
+            <p class="text-right"> Powered by Personalize.IO</p>
+          </div>
+        </div>
+      </footer  >
+    </div>
+
+  </body>
+  <!-- bower:css -->
+  <link rel="stylesheet" href="lib/bootstrap-css/css/bootstrap.min.css" />
+  <!-- endbower -->
+  <link href='https://fonts.googleapis.com/css?family=Muli:400,300' rel='stylesheet' type='text/css'>
+  <link href="css/style.css" rel="stylesheet">
+</html>

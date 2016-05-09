@@ -1,0 +1,13 @@
+.container
+  .auth-form
+    %h2 Sign In
+    .form-group
+      %input.input-lg.form-control{placeholder: "Email", type: "email"}
+    .form-group
+      %input.input-lg.form-control{placeholder: "Password", type: "password"}
+    .checkbox
+      %label
+        %input{type: "checkbox"}
+        Remember Me
+    %button.btn.btn-block.btn-lg.btn-primary Sign In
+    %a.btn.btn-link.btn-block{ui_sref: "forgot-password"} Forgot Password? Reset it.

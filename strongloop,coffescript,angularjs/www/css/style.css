@@ -1,0 +1,64 @@
+.auth-form {
+  max-width: 400px;
+  padding: 30px 30px;
+  margin: 50px auto;
+  background: #eee;
+  border-radius: 10px; }
+  .auth-form h2 {
+    margin: 0 0 25px;
+    text-align: center; }
+  .auth-form button {
+    margin: 25px 0 0 0; }
+
+body {
+  padding-top: 71px;
+  font-family: 'Muli', sans-serif !important; }
+
+p {
+  font-size: 1em;
+  line-height: 2em; }
+
+.btn {
+  transition: all 0.2s ease; }
+
+.btn-primary {
+  background-color: #2ca7e2;
+  border-color: #1a8bc1; }
+  .btn-primary:hover {
+    background-color: #1a8bc1;
+    background-color: #146a94; }
+
+.navbar-radiant .navbar-brand {
+  height: 70px;
+  padding: 20px 15px; }
+  .navbar-radiant .navbar-brand img {
+    width: 154px; }
+
+.navbar-radiant li a {
+  margin-top: 10px; }
+
+.navbar-radiant .navbar-btn {
+  margin-top: 18px;
+  margin-bottom: 10px; }
+
+@media (max-width: 767px) {
+  .navbar-radiant .nav-btn-wrapper {
+    padding-left: 15px;
+    padding-right: 15px; } }
+
+.navbar-radiant .navbar-toggle {
+  border-color: #333;
+  background-color: #666;
+  margin-top: 19px; }
+  .navbar-radiant .navbar-toggle .icon-bar {
+    background: #fff; }
+
+.navbar .divider-vertical {
+  height: 69px;
+  margin: 0 9px;
+  border-right: 1px solid #333;
+  border-left: 1px solid #666; }
+
+@media (max-width: 767px) {
+  .navbar-collapse .nav > .divider-vertical {
+    display: none; } }

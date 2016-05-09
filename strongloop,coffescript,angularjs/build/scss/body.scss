@@ -1,0 +1,25 @@
+$primary-color: #2ca7e2;
+
+body {
+  padding-top: 71px;
+  font-family: 'Muli', sans-serif !important;
+}
+
+p {
+  font-size: 1em;
+  line-height:  2em;
+}
+
+.btn {
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background-color: $primary-color;
+  border-color: darken($primary-color,10);
+
+  &:hover {
+    background-color: darken($primary-color,10);
+    background-color: darken($primary-color,20);
+  }
+}
